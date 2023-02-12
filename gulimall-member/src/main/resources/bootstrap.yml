@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gulimall-member
+
+  cloud:
+    nacos:
+      config:
+        server-addr: 49.234.42.199:8848
+        namespace: member
+
+
